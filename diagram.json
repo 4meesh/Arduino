@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Ameesh Mohammed Pv",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 19.8, "left": -87, "attrs": {} },
+    { "type": "wokwi-ir-receiver", "id": "ir1", "top": -78.15, "left": 228.62, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -80.4,
+      "left": -82.6,
+      "attrs": { "color": "red" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -136.4, "left": 9.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "led1:C", "uno:11", "green", [ "v0" ] ],
+    [ "led1:A", "uno:GND.1", "green", [ "v0" ] ],
+    [ "ir1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "ir1:DAT", "uno:3", "green", [ "v0" ] ],
+    [ "servo1:GND", "uno:GND.2", "black", [ "h0" ] ],
+    [ "ir1:GND", "uno:GND.1", "black", [ "v0" ] ],
+    [ "servo1:V+", "uno:VIN", "green", [ "h0" ] ],
+    [ "servo1:PWM", "uno:9", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
