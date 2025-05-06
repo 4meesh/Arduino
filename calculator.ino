@@ -1,18 +1,10 @@
-/**
-   Arduino Calculator
-
-   Copyright (C) 2020, Uri Shaked.
-   Released under the MIT License.
-*/
 
 #include <LiquidCrystal.h>
 #include <Keypad.h>
 #include <Servo.h>
 
-/* Display */
 LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
 
-/* Keypad setup */
 const byte KEYPAD_ROWS = 4;
 const byte KEYPAD_COLS = 4;
 byte rowPins[KEYPAD_ROWS] = {5, 4, 3, 2};
