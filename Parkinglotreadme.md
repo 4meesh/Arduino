@@ -11,6 +11,7 @@ This project uses an **ultrasonic sensor** and a **servo motor** to detect nearb
 
 ## ⚙️ Pin Configuration
 
+
 | Component        | Arduino Pin |
 |------------------|-------------|
 | Ultrasonic Trig  | 6           |
