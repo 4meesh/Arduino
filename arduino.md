@@ -4,7 +4,7 @@ Welcome to the **Arduino Basics** series – your beginner-friendly gateway into
 
 📺 **Watch the Full Series on YouTube**  
 Join us on this journey! Each episode is crafted to be beginner-friendly, practical, and fun.  
-> 🔗 [Subscribe to the Channel](https://youtube.com/@theneostudios) for updates and new lessons!
+> 🔗 [Subscribe to the Channel](https://youtube.com/@4m335h) for updates and new lessons!
 
 ---
 
@@ -20,9 +20,6 @@ This repository is a companion to the video series and contains:
 
 ## 🎬 Episode Guide
 
-| Episode | Topic                        | Watch on YouTube                          | Source Code |
-|---------|-----------------------------|-------------------------------------------|-------------|
-| 1️⃣      | Arduino Blink (Hello World)  | [Watch Now](https://youtu.be/hVzRmsy6lyU)  | [blink.ino](https://github.com/neosandeep24/ArduinoExperiments/tree/main/Arduino%20Basics/Episode01_Arduino_testing) |
 | ...     | More Coming Soon!            | Stay tuned & subscribe!                  | Coming soon |
 
 > 🆕 More episodes added weekly – Don’t forget to ⭐ star the repo if you're learning something new!
@@ -43,7 +40,7 @@ You can install the Arduino IDE here: [https://www.arduino.cc/en/software](https
 
 ## 🌟 Support & Community
 
-- 💬 **Comments? Questions?** Drop them on the YouTube videos or open an [Issue](https://github.com/neosandeep24/arduino-basics/issues)
+- 💬 **Comments? Questions?** Drop them on the YouTube videos
 - 🧑‍💻 Contribute your code or improvements through Pull Requests
 - ❤️ Share with fellow makers!
 
@@ -53,7 +50,7 @@ You can install the Arduino IDE here: [https://www.arduino.cc/en/software](https
 
 Follow me on other platforms for behind-the-scenes content, project sneak peeks, and more tutorials!
 
-- 🎥 YouTube: [@TheNeoStudios](https://youtube.com/@theneostudios)
+- 🎥 YouTube: [@4m335h](https://youtube.com/@4m335h)
 
 ---
 
