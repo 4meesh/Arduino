@@ -83,7 +83,7 @@ void setRegistry(byte reg, byte value)
  
   putByte(reg);   // specify register
   putByte(value); // send data
- 
+
   digitalWrite(CS_PIN, LOW);
   digitalWrite(CS_PIN, HIGH);
 }
