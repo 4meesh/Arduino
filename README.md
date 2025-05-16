@@ -3,8 +3,17 @@
 This repository contains beginner-friendly Arduino projects and tutorials. Each folder includes the code, circuit diagram, and explanation.
 
 ## 🔧 Projects List
-
-1. [Blink LED](projects/01-blink-led)
+HeartBeat.ino
+Parkinglot.ino
+Real_time_clock.ino
+Serial Coms.ino
+calculator-diagram.json
+calculator.ino
+ir-diagram.json
+libraries.txt
+safety Lock
+sketch.ino
+1. [Heart Beat](projects/01HeartBeat.ino)
 2. [Temperature Sensor](projects/02-temperature-sensor)
 3. [Servo Motor Control](projects/03-servo-motor)
 4. [Ultrasonic Distance Sensor](projects/04-ultrasonic-sensor)
@@ -19,4 +28,4 @@ This repository contains beginner-friendly Arduino projects and tutorials. Each 
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/arduino-intro.git
+   git clone https://github.com/4meesh/arduino-intro.git
