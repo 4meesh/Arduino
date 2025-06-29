@@ -1,31 +1,36 @@
-# Arduino Intro Projects 🚀
+# 🔌 Arduino Projects Lab
 
-This repository contains beginner-friendly Arduino projects and tutorials. Each folder includes the code, circuit diagram, and explanation.
+This repository contains a collection of beginner to intermediate-level **Arduino projects**, designed to demonstrate real-world applications using microcontrollers, sensors, and actuators. Each `.ino` sketch is well-documented and ready for hands-on experimentation.
 
-## 🔧 Projects List
-HeartBeat.ino
-Parkinglot.ino
-Real_time_clock.ino
-Serial Coms.ino
-calculator-diagram.json
-calculator.ino
-ir-diagram.json
-libraries.txt
-safety Lock
-sketch.ino
-1. [Heart Beat](projects/01HeartBeat.ino)
-2. [Temperature Sensor](projects/02-temperature-sensor)
-3. [Servo Motor Control](projects/03-servo-motor)
-4. [Ultrasonic Distance Sensor](projects/04-ultrasonic-sensor)
+---
 
-## 🛠 Requirements
+## 📁 Project List
 
-- Arduino Uno (or any compatible board)
-- Arduino IDE
-- Basic electronic components
+| Project File            | Description                                                  |
+|-------------------------|--------------------------------------------------------------|
+| `Arduino-Intro`         | Basic "Hello World" setup for getting started with Arduino   |
+| `HeartBeat.ino`         | Measures pulse rate using an analog heartbeat sensor         |
+| `Parkinglot.ino`        | Smart parking system using IR sensors to detect vehicle slots|
+| `Real_time_clock.ino`   | Reads and displays time from an RTC (Real-Time Clock) module |
+| `Serial Coms.ino`       | Demonstrates serial communication between Arduino & computer |
+| `calculator.ino`        | Implements a simple calculator using keypad and LCD          |
+| `safety Lock`           | Digital safety lock system using keypad and servo motor      |
+| `sketch.ino`            | Placeholder or generic Arduino sketch for testing            |
 
-## 📥 Getting Started
+---
 
-1. Clone this repo:
+## 🖼 Diagrams & Documentation
+
+- `calculator-diagram.json` – Circuit layout for calculator project  
+- `ir-diagram.json` – IR sensor connection diagram  
+- `libraries.txt` – List of required external libraries (e.g., RTC, Keypad, Servo)  
+- `README.md`, `arduino.md`, `Parkinglotreadme.md` – Setup and usage instructions for select projects  
+
+---
+
+## 🔧 Setup & Usage
+
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/4meesh/arduino-intro.git
+   git clone https://github.com/4meesh/arduino-projects-lab.git
+   cd arduino-projects-lab
